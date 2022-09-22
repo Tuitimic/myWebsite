@@ -1,54 +1,60 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 #header {
-    padding: 80px;
-    text-align: center; 
-    color: white;
+  padding: 80px;
+  text-align: center;
+  color: black;
+  background-color: antiquewhite;
 }
-    #header h1 {
-        font-size: 60px;
-      }
- 
-  h1 {
-      background-color: lightgreen;
-      font-size: 200%;    
-    }
-    
-#homepage {
-    background-color: rgb(7, 61, 54);
-    font-size: 100%;
-    float: left;
-    width: 600px;
-    margin: 10px;
-    
+#header h1 {
+  font-size: 60px;
 }
 
+h1 {
+  background-color: lightgreen;
+  font-size: 200%;
+  color: white;
+  margin: 10px;
+  padding: 50px;
+}
+
+#homepage {
+  background-color: white;
+  font-size: 100%;
+  float: left;
+  width: 600px;
+  margin: 10px;
+  padding: 20px;
+}
 
 #content {
-    color: rgb(255, 255, 255);
-    text-align: left;
-    float: left;
+  color: green;
+  text-align: left;
+  float: left;
 }
-
 
 #navigation1 {
-    text-align: right; 
-    background: white; 
-    color: rgb(39, 18, 18);
-    float: right;
-    width: 300px;
-    margin: 10px;
-}  
-
-#navigation1 ul {
-    list-style-type: none;
+  text-align: right;
+  color: rgb(218, 55, 209);
+  float: right;
+  width: 300px;
+  margin: 10px;
+  padding-right: 30px;
 }
 
+#navigation1 ul {
+  list-style-type: none;
+}
 
 #footer {
-    padding: 10px 0px 5px 0px;
-    margin-top: 300px;
-    color: black;
-    background-color: white;
+  color: black;
+  background-color: white;
+  position: auto;
+  clear: both;
+}
+@media only screen and (max-width: 768px) {
+  [class*="col-1"] {
+    width: 100%;
+  }
 }
